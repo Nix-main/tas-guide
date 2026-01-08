@@ -1,0 +1,7 @@
+# Setting Up libTAS
+#### Finally, something interesting!
+First, ensure you've installed the libTAS file from the previous step. If you're using a virtual machine or dual booting, you can often navigate to the location of the file and right click to select "Open Terminal Here" or a similar button. You can also navigate in the terminal using the `cd` command, by entering a path, like `cd /Downloads`. To confirm you've reached the right location, run `ls` to list all files in the current working directory. If you're using WSL2, just opening your Linux terminal will place you directly in home/your_linux_username, which is where you should've placed the file.
+
+Once your terminal's working directory contains the file, you can actually install libTAS. With a `.deb` file, run `sudo apt install ./libtas_*_amd64.deb`, the `*` ensuring that no matter the version you have, it will install. It may ask for confirmations. You should answer with `y` (yes). Once it finishes, you should be able to open it by running `libTAS` in your terminal.
+
+If you have a `.AppImage`, you should be able to run it directly by running `./libtas_\*_amd64.AppImage`.  If you get an error, usually "Access Denied" or "Permission Denied", run `chmod +x ./libtas_*_amd64.AppImage and try again`.

@@ -1,0 +1,5 @@
+# WSL2
+#### For the Windows users. Do your windows have curtains or blinds?
+If you're not a Windows user, you can safely skip this page. If you ARE, you're in luck! There's no reason to install Virtual Machine software or a second operating system, Windows already provides Linux in the form of the Windows Subsystem for Linux, or WSL.
+
+There is an easy to follow, official WSL2 installation guide [here](https://learn.microsoft.com/en-us/windows/wsl/install#manual-installation-steps). which explains the simple installation process very well. The only thing that you must do manually is enable Virtualization in your BIOS/UEFI settings. A simple guide for that can be found [here](https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-c5578302-6e43-4b4b-a449-8ced115f58e1).
